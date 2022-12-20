@@ -399,9 +399,18 @@ a {
 /* Form Input */
 .card-contact {
   padding: 3rem;
-  max-width: 640px;
+  width: 100%;
   margin: 0 auto;
 
+}
+
+@media (min-width: 1024px) {
+  .card-contact {
+    padding: 3rem;
+    max-width: 480px;
+    margin: 0 auto;
+
+  }
 }
 
 .form-wrapper {
