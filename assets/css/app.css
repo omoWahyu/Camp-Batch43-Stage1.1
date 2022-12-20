@@ -27,14 +27,8 @@ a {
 
 
 .bg-wrapper {
-  padding: 48px 0;
+  padding: 124px 0;
   /* height: 100%; */
-}
-
-@media (min-width: 640px) {
-  .bg-wrapper {
-    padding: 72px 0;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -45,6 +39,7 @@ a {
     background-image: linear-gradient(to bottom, #fe4e30, #e0256d);
   }
 }
+
 
 /* --- Shape Start --- */
 
