@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Batch 43 - Day 2 | Wahyudi Chrisdianto</title>
+  <title>Batch 43 - Day 3 | Wahyudi Chrisdianto</title>
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
 <body>
@@ -29,42 +30,42 @@
     </div>
   </header>
   <section class="bg-wrapper">
-    <div class="card card-contact">
-      <div class="form-wrapper">
+    <div class="card container-sm card-contact">
+      <div class="">
         <h1 class="card-title">Get In Touch</h1>
         <form action="" class="form-group">
           <div class="form-input">
             <label for="f-name">Name</label>
-            <input name="f-name" type="text" class="input">
+            <input id="f-name" name="f-name" type="text" class="input">
           </div>
           <div class="form-input">
             <label for="f-email">Email</label>
-            <input name="f-email" type="text" class="input">
+            <input id="f-email" name="f-email" type="email" class="input">
           </div>
           <div class="form-input">
             <label for="f-phone">Phone Number</label>
-            <input name="f-phone" type="text" class="input">
+            <input id="f-phone" name="f-phone" type="text" class="input">
           </div>
           <div class="form-input">
             <label for="f-subject">Subject</label>
-            <select name="f-subject" id="" class="select">
-              <option value="Opsi 1">Opsi 1</option>
-              <option value="Opsi 2">Opsi 2</option>
-              <option value="Opsi 3">Opsi 3</option>
+            <select id="f-subject" name="f-subject" class="select">
+              <option value="Opsi 1">Collaborate</option>
+              <option value="Opsi 2">Job Offering</option>
+              <option value="Opsi 3">Other</option>
             </select>
           </div>
           <div class="form-input">
             <label for="f-message">Your Message</label>
-            <textarea name="f-message" id="" cols="30" rows="10" class="textarea"></textarea>
+            <textarea id="f-message" name="f-message" id="" cols="30" rows="10" class="textarea"></textarea>
           </div>
           <div class="form-submit">
-            <button class="btn btn-primary btn-lg rounded-full">Submit</button>
+            <button class="btn btn-primary btn-lg rounded-full" type="submit" onclick="submitData()">Submit</button>
           </div>
         </form>
       </div>
     </div>
   </section>
-
+  <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
