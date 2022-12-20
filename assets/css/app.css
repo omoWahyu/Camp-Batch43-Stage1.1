@@ -407,7 +407,7 @@ a {
 @media (min-width: 1024px) {
   .card-contact {
     padding: 3rem;
-    max-width: 480px;
+    max-width: 520px;
     margin: 0 auto;
 
   }
