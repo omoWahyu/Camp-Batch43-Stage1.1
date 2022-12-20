@@ -40,9 +40,9 @@ a {
 @media (min-width: 1024px) {
   .bg-wrapper {
     padding: 52px 24px;
+    height: max-content;
     object-fit: cover;
     background-image: linear-gradient(to bottom, #fe4e30, #e0256d);
-    background-repeat: no-repeat;
   }
 }
 
