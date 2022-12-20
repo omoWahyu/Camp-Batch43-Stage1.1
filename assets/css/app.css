@@ -19,7 +19,7 @@ a {
   /* Colors */
   --primary: #000;
   --sub-primary: #fff;
-  --secondary: #000;
+  --secondary: #fe4e30;
   --sub-secondary: #000;
   --tertiary: #000;
   --sub-tertiary: #000;
@@ -277,6 +277,15 @@ a {
 .btn-primary:hover {
   background-color: var(--sub-primary);
   color: var(--primary);
+  border: .5px solid #000;
+  font-weight: 600;
+}
+
+.btn-active {
+  background-color: var(--secondary);
+  color: var(--sub-secondary);
+  font-weight: 600;
+  border: .5px solid var(--secondary);
 }
 
 .btn-transparent {
