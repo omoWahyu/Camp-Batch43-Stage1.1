@@ -144,7 +144,7 @@ a {
 /* Card - Responsive Media */
 @media (min-width: 1024px) {
   .card-title {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 20px;
   }
 }
