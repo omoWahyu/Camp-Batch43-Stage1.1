@@ -132,7 +132,7 @@ a {
 
 .card-title {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 /* Card - Responsive Media */
@@ -213,6 +213,7 @@ a {
 
 .card-profile__img {
   width: 100%;
+  height: fit-content;
   border-radius: 16px;
   overflow: hidden;
 }
