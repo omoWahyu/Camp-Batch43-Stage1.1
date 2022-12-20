@@ -76,7 +76,6 @@ a {
 
 .header-logo {
   width: 72px;
-  margin-right: 48px;
 }
 
 .header-logo>img {
@@ -91,13 +90,25 @@ a {
 }
 
 .header-nav__left {
-  display: flex;
   gap: 24px;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .header-nav__left>li {
   list-style: none;
+}
+
+@media (min-width: 1024px) {
+  .header-logo {
+    width: 72px;
+    margin-right: 48px;
+  }
+
+  .header-nav__left {
+    display: flex;
+    gap: 24px;
+    font-size: 1.25rem;
+  }
 }
 
 /* --- Header Stop --- */
