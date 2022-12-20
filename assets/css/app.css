@@ -27,20 +27,20 @@ a {
 
 
 .bg-wrapper {
-  padding: 0;
+  padding: 48px 0;
   /* height: 100%; */
 }
 
 @media (min-width: 640px) {
   .bg-wrapper {
-    padding: 48px 0;
+    padding: 72px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-wrapper {
-    padding: 52px 24px;
-    height: max-content;
+    padding: 148px 24px;
+    height: 100vh;
     object-fit: cover;
     background-image: linear-gradient(to bottom, #fe4e30, #e0256d);
   }
@@ -65,6 +65,11 @@ a {
 .header {
   width: 100%;
   padding: 20px 0;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(24px);
 }
 
 .header-wrapper {
@@ -277,7 +282,7 @@ a {
 }
 
 .btn-primary:hover {
-  background-color: var(--sub-primary);
+  background-color: transparent;
   color: var(--primary);
   border: .5px solid #000;
   font-weight: 600;
@@ -293,6 +298,7 @@ a {
 .btn-transparent {
   gap: 12px;
   color: var(--primary);
+  background-color: transparent;
   border: .5px solid rgba(0, 0, 0, 0);
 }
 
