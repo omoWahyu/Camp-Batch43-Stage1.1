@@ -33,13 +33,13 @@ a {
 
 @media (min-width: 640px) {
   .bg-wrapper {
-    padding: 32px 0;
+    padding: 48px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-wrapper {
-    padding: 108px 24px;
+    padding: 52px 24px;
     object-fit: cover;
     background-image: linear-gradient(to bottom, #fe4e30, #e0256d);
   }
