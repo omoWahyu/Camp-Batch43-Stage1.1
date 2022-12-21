@@ -358,10 +358,10 @@ select,
 textarea {
   padding: .5rem 1rem;
   border-radius: 8px;
-  border: 2px solid #ccc;
+  border: 2px solid rgb(223, 223, 223);
   /* border: none; */
-  background-color: #fdfdfd;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form-input>input:hover,
@@ -390,4 +390,8 @@ textarea:focus {
 
 .form-input>button {
   flex-grow: unset;
+}
+
+.form-input__error {
+  color: #e0256d;
 }
