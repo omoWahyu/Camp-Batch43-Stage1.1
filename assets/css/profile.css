@@ -1,0 +1,87 @@
+.card-split {
+  border-radius: 0px;
+  padding: 1.25rem;
+  max-width: 1280px;
+}
+
+
+.card-split__desc {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.card-split__horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-weight: 500;
+}
+
+.card-split__left {
+  width: 100%;
+}
+
+.card-split__right {
+  width: 100%;
+}
+
+/* Card Split - Responsive Media */
+@media (min-width: 1024px) {
+  .card-split {
+    border-radius: 24px;
+    padding: 4rem;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .card-split__horizontal {
+    flex-direction: row;
+  }
+
+  .card-split__left {
+    width: 100%;
+  }
+
+  .card-split__right {
+    width: 360px;
+  }
+
+  .card-split__desc {
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* Card Profile */
+.card-profile {
+  border-radius: 20px;
+  width: 320px;
+  margin: 32px auto 0 auto;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-profile__img {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-profile__img>img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: saturate(1.20) grayscale(20%);
+}
+
+.card-profile__body {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card-profile__desc {
+  font-weight: 600;
+  font-size: .85rem;
+  color: #3a3a3a;
+}

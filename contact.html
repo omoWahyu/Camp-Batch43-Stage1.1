@@ -5,66 +5,69 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Batch 43 - Day 2 | Wahyudi Chrisdianto</title>
+  <title>Batch 43 - Day 3 | Wahyudi Chrisdianto</title>
+  <link rel="preload" href="assets/css/app.css" as="style">
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <header class="header">
     <div class="header-wrapper">
-      <div class="header-logo"><img src="./assets/img/logo-DW.webp" alt=""></div>
+      <div class="header-logo"><img src="./assets/img/logo-DW.webp" alt="Dumbways Logo"></div>
       <div class="header-nav">
         <ul class="header-nav__left">
           <li>
-            <a href="index.html" class="link link-active">Home</a>
+            <a href="index.html" class="link">Home</a>
           </li>
           <li>
             <a href="#" class="link">My Project</a>
           </li>
         </ul>
         <div class="header-nav__right">
-          <a href="contact.html" class="btn btn-primary">Contact Me</a>
+          <a href="contact.html" class="btn btn-primary btn-active">Contact Me</a>
         </div>
       </div>
     </div>
   </header>
   <section class="bg-wrapper">
-    <div class="card" style="padding:2rem;max-width: 1280px; margin: 0 auto;">
-      <div class="form-wrapper" style="margin: 0 auto; max-width: 520px;">
+    <div class="card container-sm card-contact">
+      <div class="">
         <h1 class="card-title">Get In Touch</h1>
         <form action="" class="form-group">
           <div class="form-input">
             <label for="f-name">Name</label>
-            <input name="f-name" type="text" class="input">
+            <input id="f-name" name="f-name" type="text" class="input">
           </div>
           <div class="form-input">
             <label for="f-email">Email</label>
-            <input name="f-email" type="text" class="input">
+            <input id="f-email" name="f-email" type="email" class="input">
           </div>
           <div class="form-input">
             <label for="f-phone">Phone Number</label>
-            <input name="f-phone" type="text" class="input">
+            <input id="f-phone" name="f-phone" type="text" class="input">
           </div>
           <div class="form-input">
             <label for="f-subject">Subject</label>
-            <select name="f-subject" id="" class="select">
-              <option value="Opsi 1">Opsi 1</option>
-              <option value="Opsi 2">Opsi 2</option>
-              <option value="Opsi 3">Opsi 3</option>
+            <select id="f-subject" name="f-subject" class="select">
+              <option value="Opsi 1">Collaborate</option>
+              <option value="Opsi 2">Job Offering</option>
+              <option value="Opsi 3">Other</option>
             </select>
           </div>
           <div class="form-input">
             <label for="f-message">Your Message</label>
-            <textarea name="f-message" id="" cols="30" rows="10" class="textarea"></textarea>
+            <textarea id="f-message" name="f-message" id="" cols="30" rows="10" class="textarea"></textarea>
           </div>
           <div class="form-submit">
-            <button class="btn btn-primary btn-lg rounded-full">Submit</button>
+            <button class="btn btn-primary btn-lg rounded-full" type="button" onclick="submitData()">Submit</button>
           </div>
         </form>
       </div>
     </div>
   </section>
-
+  <script src="./assets/js/contact.js"></script>
 </body>
 
 </html>
